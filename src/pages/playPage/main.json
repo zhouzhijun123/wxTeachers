@@ -1,0 +1,7 @@
+{
+    "navigationBarBackgroundColor": "#234690",
+    "navigationBarTitleText": "北师大手机直播课堂",
+    "navigationBarTextStyle": "white",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+}

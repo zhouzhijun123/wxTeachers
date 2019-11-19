@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/homePage/main",
+    "pages/videoPage/main",
+    "pages/classesPage/main",
+    "pages/playPage/main",
+    "pages/subPlayPage/main",
+    "pages/cloudPage/main",
+    "pages/subCloudPage/main",
+    "pages/test/main"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#2b8d00",
+    "navigationBarTitleText": "手机教师网",
+    "navigationBarTextStyle": "white",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  }
+}

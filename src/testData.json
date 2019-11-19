@@ -1,0 +1,686 @@
+{
+    "homePage": {
+        "topScrollImgs": [
+            {
+                "url": "/static/images/blue.jpg",
+                "event": "林芝市2019年“聚焦课堂，提升质量”初中主题教研暨校长论坛",
+                "date": "2019.10.12",
+                "destUrl": "../playPage/main?id=0"
+            },
+            {
+                "url": "/static/images/test.jpg",
+                "event": "“东南亚论坛”第三届国际会议—命运共同体视域下的粤港澳大湾区与东南亚",
+                "date": "2019.10.13",
+                "destUrl": "../cloudPage/main?id=1"
+            },
+            {
+                "url": "/static/images/blue.jpg",
+                "event": "2019 年世界政治经济地理大会",
+                "date": "2019.10.14",
+                "destUrl": "../cloudPage/main?id=0"
+            }
+        ],
+        "tabTitles": [
+            "直播专题",
+            "培训专题"
+        ],
+        "leftImgs": [
+            {
+                "url": "/static/images/blue.jpg",
+                "text": "教育部部长陈宝生考察华南师大网络教育学院创新成果实录",
+                "destUrl": "../videoPage/main?id=2"
+            },
+            {
+                "url": "/static/images/blue.jpg",
+                "text": "如何解决教育公平的“最后一公里”？",
+                "destUrl": "../videoPage/main?id=1"
+            },
+            {
+                "url": "/static/images/blue.jpg",
+                "text": "如何解决教育公平的“最后一公里”？",
+                "destUrl": "../videoPage/main?id=2"
+            },
+            {
+                "url": "/static/images/blue.jpg",
+                "text": "如何解决教育公平的“最后一公里”？",
+                "destUrl": "../videoPage/main?id=2"
+            },
+            {
+                "url": "/static/images/blue.jpg",
+                "text": "如何解决教育公平的“最后一公里”？",
+                "destUrl": "../videoPage/main?id=2"
+            }
+        ],
+        "rightImgs": [
+            {
+                "url": "/static/images/blue.jpg",
+                "text": "教育部部长陈宝生考察华南师大网络教育学院创新成果实录",
+                "destUrl": "../classesPage/main?id=0"
+            },
+            {
+                "url": "/static/images/blue.jpg",
+                "text": "教育部部长陈宝生考察华南师大网络教育学院创新成果实录",
+                "destUrl": "../classesPage/main?id=1"
+            },
+            {
+                "url": "/static/images/blue.jpg",
+                "text": "教育部部长陈宝生考察华南师大网络教育学院创新成果实录",
+                "destUrl": "../classesPage/main?id=0"
+            },
+            {
+                "url": "/static/images/blue.jpg",
+                "text": "教育部部长陈宝生考察华南师大网络教育学院创新成果实录",
+                "destUrl": "../classesPage/main?id=0"
+            }
+        ],
+        "bottomText": "华南师范大学网络教育学院"
+    },
+    "classesPage": {
+        "0": {
+            "title": "林芝市2019年“聚焦课堂，提升质量”初中主题教研暨校长论坛",
+            "classes": [
+                {
+                    "title": "《牛犊》",
+                    "date": "2019/11/16/10:40",
+                    "host": "任课教师：巴宜区中学罗旦老师",
+                    "destUrl": "../videoPage/main?id=1",
+                    "flag": "0",
+                    "users": [
+                        {
+                            "name": "Lemon0",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Stevens",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Just so so"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        }
+                    ]
+                },
+                {
+                    "title": "《梦回繁华》",
+                    "date": "2019/11/16/10:40",
+                    "host": "任课教师：八一中学薛仰丽老师",
+                    "destUrl": "../videoPage/main?id=0",
+                    "flag": "1",
+                    "users": [
+                        {
+                            "name": "Lemon1",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Stevens",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Just so so"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        }
+                    ]
+                },
+                {
+                    "title": "《梦回繁华》",
+                    "date": "2019/11/16/10:40",
+                    "host": "任课教师：八一中学薛仰丽老师",
+                    "destUrl": "../videoPage/main?id=0",
+                    "flag": "2",
+                    "users": [
+                        {
+                            "name": "Lemon2",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Stevens",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Just so so"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        }
+                    ]
+                }
+            ],
+            "binImg": "/static/images/blue.jpg"
+        },
+        "1": {
+            "title": "林芝市2019年“聚焦课堂，提升质量”初中主题教研暨校长论坛2222",
+            "classes": [
+                {
+                    "title": "《牛犊》",
+                    "date": "2019/11/16/10:40",
+                    "host": "任课教师：巴宜区中学罗旦老师",
+                    "destUrl": "../videoPage/main?id=0",
+                    "flag": "0",
+                    "users": [
+                        {
+                            "name": "Lemon0",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Stevens",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Just so so"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        }
+                    ]
+                },
+                {
+                    "title": "《梦回繁华》",
+                    "date": "2019/11/16/10:40",
+                    "host": "任课教师：八一中学薛仰丽老师",
+                    "destUrl": "../videoPage/main?id=0",
+                    "flag": "1",
+                    "users": [
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Stevens",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Just so so"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        }
+                    ]
+                },
+                {
+                    "title": "《梦回繁华》",
+                    "date": "2019/11/16/10:40",
+                    "host": "任课教师：八一中学薛仰丽老师",
+                    "destUrl": "../videoPage/main?id=0",
+                    "flag": "2",
+                    "users": [
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Stevens",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Just so so"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        },
+                        {
+                            "name": "Lemon",
+                            "userIcon": "/static/images/blue.jpg",
+                            "contend": "Good"
+                        }
+                    ]
+                }
+            ],
+            "binImg": "/static/images/test.jpg"
+        },
+        "state": [
+            "(直播未开始)",
+            "(直播中)",
+            "(直播结束)"
+        ],
+        "bottomText": "技术支持单位:华南师大网络教育学院"
+    },
+    "playPage": {
+        "0": {
+            "topImg": {
+                "url": "/static/images/blue.jpg",
+                "destUrl": "../videoPage/main?id=0",
+                "leftText": "直播预告",
+                "event": "通过动手操作提高学生解答多边形面积的能力",
+                "date": "2018.11.02"
+            },
+            "imgs": [
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "教育部部长陈宝生考察华南师大网络教育学院创新成果实录",
+                    "destUrl": "../subPlayPage/main?id=1"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "如何解决教育公平的“最后一公里”？",
+                    "destUrl": "../subPlayPage/main?id=0"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "如何解决教育公平的“最后一公里”？",
+                    "destUrl": "../subPlayPage/main?id=1"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "如何解决教育公平的“最后一公里”？",
+                    "destUrl": "../subPlayPage/main?id=0"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "如何解决教育公平的“最后一公里”？",
+                    "destUrl": "../subPlayPage/main?id=1"
+                }
+            ]
+        },
+        "bottomText": "技术支持:华南师大网络教育学院"
+    },
+    "subPlayPage": {
+        "0": {
+            "topImg": {
+                "url": "/static/images/blue.jpg",
+                "destUrl": "../videoPage/main?id=0",
+                "title": "江西省抚州市临川区基础教育质量整体提升工程",
+                "leftText": "直播预告",
+                "event": "手机直播活动",
+                "date": "2018.11.02起"
+            }
+        },
+        "1": {
+            "topImg": {
+                "url": "/static/images/test.jpg",
+                "destUrl": "../videoPage/main?id=1",
+                "title": "遵义市教育系统高端领军人才培养计划",
+                "leftText": "直播预告",
+                "event": "手机直播活动",
+                "date": "2018.11.02起"
+            }
+        },
+        "tabTitles": [
+            "直播课堂",
+            "教研活动",
+            "特色活动"
+        ],
+        "bottomText": "技术支持:华南师大网络教育学院"
+    },
+    "cloudPage": {
+        "0": {
+            "topImg": {
+                "url": "/static/images/blue.jpg",
+                "destUrl": "../videoPage/main?id=0",
+                "text": "点击直播预告"
+            },
+            "grideImgs": [
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "一年级",
+                    "destUrl": "../subCloudPage/main?id=0",
+                    "id": "0"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "二年级",
+                    "destUrl": "../subCloudPage/main?id=1",
+                    "id": "1"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "三年级",
+                    "destUrl": "../subCloudPage/main?id=0"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "四年级",
+                    "destUrl": "../videoPage/main"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "五年级",
+                    "destUrl": "../videoPage/main"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "六年级",
+                    "destUrl": "../videoPage/main"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "幼儿园小班",
+                    "destUrl": "../videoPage/main"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "幼儿园中班",
+                    "destUrl": "../videoPage/main"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "幼儿园大班",
+                    "destUrl": "../videoPage/main"
+                }
+            ],
+            "imgList1": [
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "教育部部长陈宝生考察华南师大网络教育学院创新成果实录",
+                    "destUrl": "../videoPage/main?id=2"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "如何解决教育公平的“最后一公里”？",
+                    "destUrl": "../videoPage/main?id=1"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "如何解决教育公平的“最后一公里”？",
+                    "destUrl": "../videoPage/main?id=2"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "如何解决教育公平的“最后一公里”？",
+                    "destUrl": "../videoPage/main?id=2"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "如何解决教育公平的“最后一公里”？",
+                    "destUrl": "../videoPage/main?id=2"
+                }
+            ]
+        },
+        "1": {
+            "topImg": {
+                "url": "/static/images/test.jpg",
+                "destUrl": "../videoPage/main?id=1",
+                "text": "点击直播预告"
+            },
+            "grideImgs": [
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "一年级",
+                    "destUrl": "../subCloudPage/main?id=0",
+                    "id": "0"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "二年级",
+                    "destUrl": "../subCloudPage/main?id=1",
+                    "id": "1"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "三年级",
+                    "destUrl": "../videoPage/main"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "四年级",
+                    "destUrl": "../videoPage/main"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "五年级",
+                    "destUrl": "../videoPage/main"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "六年级",
+                    "destUrl": "../videoPage/main"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "幼儿园小班",
+                    "destUrl": "../videoPage/main"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "幼儿园中班",
+                    "destUrl": "../videoPage/main"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "幼儿园大班",
+                    "destUrl": "../videoPage/main"
+                }
+            ],
+            "imgList1": [
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "教育部部长陈宝生考察华南师大网络教育学院创新成果实录",
+                    "destUrl": "../videoPage/main?id=2"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "如何解决教育公平的“最后一公里”？",
+                    "destUrl": "../videoPage/main?id=1"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "如何解决教育公平的“最后一公里”？",
+                    "destUrl": "../videoPage/main?id=2"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "如何解决教育公平的“最后一公里”？",
+                    "destUrl": "../videoPage/main?id=2"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "如何解决教育公平的“最后一公里”？",
+                    "destUrl": "../videoPage/main?id=2"
+                }
+            ]
+        },
+        "tabTitles": [
+            "直播课堂",
+            "教研活动",
+            "特色活动",
+            "培训专题"
+        ],
+        "bottomText": "支持：湛江市教育局/华南师大学网络教育学院"
+    },
+    "subCloudPage": {
+        "0": {
+            "topImg": {
+                "url": "/static/images/blue.jpg",
+                "destUrl": "../videoPage/main?id=0",
+                "text": "一年级系列课程"
+            },
+            "classes": [
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "语文",
+                    "destUrl": "../videoPage/main?id=2"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "数学",
+                    "destUrl": "../videoPage/main?id=1"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "英语",
+                    "destUrl": "../videoPage/main?id=2"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "体育",
+                    "destUrl": "../videoPage/main?id=2"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "美术",
+                    "destUrl": "../videoPage/main?id=2"
+                }
+            ]
+        },
+        "1": {
+            "topImg": {
+                "url": "/static/images/blue.jpg",
+                "destUrl": "../videoPage/main?id=0",
+                "text": "二年级系列课程"
+            },
+            "classes": [
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "语文",
+                    "destUrl": "../videoPage/main?id=2"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "数学",
+                    "destUrl": "../videoPage/main?id=1"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "英语",
+                    "destUrl": "../videoPage/main?id=2"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "体育",
+                    "destUrl": "../videoPage/main?id=2"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "美术",
+                    "destUrl": "../videoPage/main?id=2"
+                }
+            ]
+        },
+        "bottomText": "支持：湛江市教育局/华南师大学网络教育学院"
+    },
+    "videoPage": {
+        "0": {
+            "url": "http://w.gdou.com/livevod/secedu/01b.mp4",
+            "title": "八年级语文同课异构《梦回繁华》",
+            "host": "任课教师：八一中学薛仰丽老师",
+            "date": "2019/11/16/10:40",
+            "users": [
+                {
+                    "name": "Lemon",
+                    "userIcon": "/static/images/blue.jpg",
+                    "contend": "Good"
+                },
+                {
+                    "name": "Stevens",
+                    "userIcon": "/static/images/blue.jpg",
+                    "contend": "Just so so"
+                },
+                {
+                    "name": "Stevens",
+                    "userIcon": "/static/images/blue.jpg",
+                    "contend": "Just so so"
+                }
+            ]
+        },
+        "1": {
+            "url": "http://w.gdou.com/livevod/secedu/01b.mp4",
+            "title": "八年级藏文同课异构《牛犊》",
+            "host": "任课教师：巴宜区中学罗旦老师",
+            "date": "2019/11/16/10:40",
+            "users": [
+                {
+                    "name": "Lemon",
+                    "userIcon": "/static/images/blue.jpg",
+                    "contend": "Good"
+                },
+                {
+                    "name": "Stevens",
+                    "userIcon": "/static/images/blue.jpg",
+                    "contend": "Just so so"
+                },
+                {
+                    "name": "Stevens",
+                    "userIcon": "/static/images/blue.jpg",
+                    "contend": "Just so so"
+                }
+            ]
+        },
+        "2": {
+            "url": "http://w.gdou.com/livevod/news/06.mp4",
+            "title": "教育部部长陈宝生考察华南师大网络教育学院创新成果实录",
+            "host": "教育部部长陈宝生",
+            "date": "2019/11/16/10:40",
+            "users": [
+                {
+                    "name": "Lemon",
+                    "userIcon": "/static/images/blue.jpg",
+                    "contend": "Good"
+                },
+                {
+                    "name": "Stevens",
+                    "userIcon": "/static/images/blue.jpg",
+                    "contend": "Just so so"
+                },
+                {
+                    "name": "Stevens",
+                    "userIcon": "/static/images/blue.jpg",
+                    "contend": "Just so so"
+                }
+            ]
+        }
+    }
+}
