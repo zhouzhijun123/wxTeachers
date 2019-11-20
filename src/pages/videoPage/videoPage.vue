@@ -49,12 +49,12 @@
   float: left;
   width: 550rpx;
   height: 10vh;
-  /* background-color: aqua; */
+  background-color: aqua;
 }
 .in {
-  height: 60rpx;
+  height: 4vh;
   padding: 10rpx;
-  font-size: 35rpx;
+  font-size: 3vh;
   border: 2rpx #cccccc solid;
 }
 .sumit {
@@ -63,9 +63,10 @@
   align-items: center;
   float: right;
   width: 200rpx;
+  height: 10vh;
   border-radius: 0;
   background-color: dodgerblue;
   color: white;
-  font-size: 40rpx;
+  font-size: 4vh;
 }
 </style>

@@ -1,5 +1,7 @@
 # wx_teacher
 
+:blush:
+
 > A Mpvue project
 
 ## Build Setup
