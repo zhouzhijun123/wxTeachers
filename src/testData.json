@@ -33,7 +33,7 @@
             {
                 "url": "/static/images/blue.jpg",
                 "text": "如何解决教育公平的“最后一公里”？",
-                "destUrl": "../videoPage/main?id=1"
+                "destUrl": "../test/main?id=0"
             },
             {
                 "url": "/static/images/blue.jpg",
@@ -679,6 +679,59 @@
                     "name": "Stevens",
                     "userIcon": "/static/images/blue.jpg",
                     "contend": "Just so so"
+                }
+            ]
+        }
+    },
+    "test": {
+        "0": {
+            "imgs": [
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "一年级",
+                    "destUrl": "../subCloudPage/main?id=0",
+                    "id": "0"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "二年级",
+                    "destUrl": "../subCloudPage/main?id=1",
+                    "id": "1"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "三年级",
+                    "destUrl": "../videoPage/main"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "四年级",
+                    "destUrl": "../videoPage/main"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "五年级",
+                    "destUrl": "../videoPage/main"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "六年级",
+                    "destUrl": "../videoPage/main"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "幼儿园小班",
+                    "destUrl": "../videoPage/main"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "幼儿园中班",
+                    "destUrl": "../videoPage/main"
+                },
+                {
+                    "url": "/static/images/blue.jpg",
+                    "text": "幼儿园大班",
+                    "destUrl": "../videoPage/main"
                 }
             ]
         }

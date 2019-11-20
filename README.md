@@ -1,5 +1,9 @@
 # wx_teacher
 
+## 项目介绍：
+**项目框架构成：** *typescript+mpvue+flyio*
+
+
 > A Mpvue project
 
 ## Build Setup
