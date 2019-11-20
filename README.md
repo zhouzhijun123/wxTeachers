@@ -42,9 +42,9 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 #### 项目目录
 
-``` markdown
-|— **.awcache**<br />
-|— **build**&emsp;*一些用于项目编译打包的 node.js 脚本和 webpack 配置文件*<br />
+``` text
+|— .awcache
+|— build    一些用于项目编译打包的 node.js 脚本和 webpack 配置文件
 |— **config**&emsp;*包含了用于开发和生产环境下的不同配置*<br />
 |— **dist**&emsp;*由 src 编译后生成的可供微信小程序识别的目录*<br />
 |&emsp;&emsp;|— **wx**&emsp;*页面及组件之类的均在这里面*<br />
