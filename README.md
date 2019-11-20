@@ -41,7 +41,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 #### 项目框架构成： *typescript+mpvue+flyio*
 
 #### 项目目录
-|— **.awcache**&ensp;&ensp;
+|— **.awcache**<br />
 |— **build**&emsp;*一些用于项目编译打包的 node.js 脚本和 webpack 配置文件*  
 |— **config**&emsp;*包含了用于开发和生产环境下的不同配置*  
 |— **dist**&emsp;*由 src 编译后生成的可供微信小程序识别的目录*  
