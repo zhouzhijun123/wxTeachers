@@ -77,28 +77,21 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 #### 项目页面组成：
 
-- **homgPage：** *应用主页*
+- [**homgPage：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094758homePage.png) *应用主页*
 
-- **classesPage：** *课程列表页，显式课程，点击对应课程项跳转到 VideoPage 页观看视频*
+- [**classesPage：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094812classesPage.png) *课程列表页，显式课程，点击对应课程项跳转到 VideoPage 页观看视频*
 
-- **playPage：** *直播课程页，直播课堂里的页面*
+- [**playPage：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094826playPage.png) *直播课程页，直播课堂里的页面*
 
-- **subPlayPage：** *直播课程主子页，在直播课堂里跳转后比较复杂的页面*
+- [**subPlayPage：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094839subPlayPage.png) *直播课程主子页，在直播课堂里跳转后比较复杂的页面*
 
-- **cloudPage：** *手机教育云页*
+- [**cloudPage：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094817cloudPage.png) *手机教育云页*
 
-- **subCloudPage：** *手机云教育主子页，在教育云里跳转后比较复杂的页面*
+- [**subCloudPage：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094832subCloudPage.png) *手机云教育主子页，在教育云里跳转后比较复杂的页面*
 
 - **videoPage：** *视频页，观看视频、显式评论、提供评论，需要绑定用户的微信评论*
 
 - **test：** *测试页*
-
-![homePage](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094758homePage.png)
-![classesPage](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094812classesPage.png)
-![cloudPage](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094817cloudPage.png)
-![subCloudPage](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094832subCloudPage.png)
-![playPage](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094826playPage.png)
-![subPlayPage](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094839subPlayPage.png)
 
 #### 页面组件：
 
