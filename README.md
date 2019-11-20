@@ -1,8 +1,8 @@
-# wx_teacher :blush:
+# :blush: wx_teacher
 
-> A Mpvue project :open_mouth:
+> :open_mouth: A Mpvue project
 
-### Build Setup :smirk:
+### :smile: Build Setup
 
 ``` bash
 # 初始化项目
@@ -36,9 +36,9 @@ npm run build --report
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-### 项目介绍：:smile:
+### :smile: 项目介绍：
 
-#### 项目框架构成： *typescript+mpvue+flyio*
+#### 项目框架构成： *typescript@\^3.3.3333+mpvue@\^2.0.0+flyio@\^0.6.14*
 
 #### 项目目录
 
@@ -114,5 +114,18 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 - [**userContend：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120180907userContend.png) *用户评价区*
 
 - [**bottomText：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120180739bottomText.png) *页面底部文字*
+
+
+### :mega: 数据流动方式
+1. testData.json 提供测试数据
+2. 遵循原则：本页页面数据由本页提供，跳转页数据由上一页决定
+3. 跳转 URL 类似于 *跳转页面路径?id=所需数据所在的id值*<br />
+    - 如：跳转到 playPage 页，且其数据 id 为 0 ==> {"destUrl": "../playPage/main?id=0"}
+    - 数据存储方式：{ "playPage": ["0": {id 为 0 的数据}, "1": {...}, ...] }
+4. 组件不存在数据，由页面传递 Prop
+
+### :pencil: 项目零散知识点
+
+1. 
 
 # wxTeachers
