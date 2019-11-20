@@ -1,10 +1,8 @@
-# wx_teacher
+# wx_teacher :blush:
 
-:blush:
+> A Mpvue project :open_mouth:
 
-> A Mpvue project
-
-## Build Setup
+### Build Setup :smirk:
 
 ``` bash
 # 初始化项目
@@ -36,13 +34,13 @@ npm build:my
 npm run build --report
 ```
 
-## 项目介绍：
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-:smile:
+### 项目介绍：:smile:
 
-### 项目框架构成： *typescript+mpvue+flyio*
+#### 项目框架构成： *typescript+mpvue+flyio*
 
-### 项目页面组成：
+#### 项目页面组成：
 
 - **homgPage：** *应用主页*
 
@@ -67,7 +65,7 @@ npm run build --report
 ![playPage](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094826playPage.png)
 ![subPlayPage](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094839subPlayPage.png)
 
-### 页面组件：
+#### 页面组件：
 
 - **topScrollImg：** *顶部轮播图片*
 
@@ -87,5 +85,4 @@ npm run build --report
 
 - **bottomText：** *页面底部文字*
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 # wxTeachers
