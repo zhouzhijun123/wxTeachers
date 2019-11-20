@@ -1,13 +1,13 @@
 {
   "pages": [
     "pages/homePage/main",
+    "pages/test/main",
     "pages/videoPage/main",
     "pages/classesPage/main",
     "pages/playPage/main",
     "pages/subPlayPage/main",
     "pages/cloudPage/main",
-    "pages/subCloudPage/main",
-    "pages/test/main"
+    "pages/subCloudPage/main"
   ],
   "window": {
     "navigationBarBackgroundColor": "#2b8d00",

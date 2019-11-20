@@ -1,11 +1,13 @@
 // index.ts
 import { Vue, Component } from 'vue-property-decorator'
+import TopScrollImg from '@/components/topScrollImg/topScrollImg.vue'
 import Gride3 from '@/components/gride3/gride3.vue'
 
 import Data from '../../testData.json'
 
 @Component({
   components: {
+    TopScrollImg,
     Gride3
   },
 })
@@ -17,7 +19,6 @@ class Test extends Vue {
 
   beforeMount() {
     console.log("In test");
-    this.id = this.$root.$mp.query.id;
     this.imgs = Data.test[this.id].imgs;
   }
 }

@@ -95,22 +95,24 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 #### 页面组件：
 
-- **topScrollImg：** *顶部轮播图片*
+- [**topScrollImg：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120180900topScrollImg.png) *顶部轮播图片*
 
-- **activityList：** *活动列表*
+- [**activityList：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120180726activityList.png) *活动列表*
 
-- **gride：** *九宫格*
+- [**gride：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120180804gride.png) *九宫格*
 
-- **gride2：** *课本展示网格*
+- [**gride2：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120180753grade2.png) *课本展示网格*
 
-- **gride3：** *教师介绍网格*
+- [**gride3：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120180814gride3.png) *教师介绍网格*
 
-- **staticImg：** *顶部直播图片栏*
+- [**staticImg：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120180829staticImg.png) *顶部直播图片栏*
 
-- **staticImg2：** *顶部直播图片栏*
+- [**staticImg2：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120180844staticImg2.png) *顶部直播图片栏*
 
-- **userContend：** *用户评价区*
+- [**videoList**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120180914videoList.png) *课程列表*
 
-- **bottomText：** *页面底部文字*
+- [**userContend：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120180907userContend.png) *用户评价区*
+
+- [**bottomText：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120180739bottomText.png) *页面底部文字*
 
 # wxTeachers

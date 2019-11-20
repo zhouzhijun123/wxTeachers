@@ -25,7 +25,7 @@
 .grids-cell {
   position: relative;
   margin: 16rpx;
-  width: 300rpx;
+  width: 295rpx;
   text-decoration: none;
   display: flex;
   border: 5px solid #fff;
