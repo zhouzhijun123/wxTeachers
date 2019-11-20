@@ -1,9 +1,5 @@
 # wx_teacher
 
-## 项目介绍：
-**项目框架构成：** *typescript+mpvue+flyio*
-
-
 > A Mpvue project
 
 ## Build Setup
@@ -37,6 +33,35 @@ npm build:my
 # 生成 bundle 分析报告
 npm run build --report
 ```
+
+## 项目介绍：
+
+### 项目框架构成： *typescript+mpvue+flyio*
+
+### 项目页面组成：
+
+- **homgPage：** 应用主页
+
+- **classesPage：** 课程列表页
+
+- **playPage：** 直播课程页
+
+- **subPlayPage：** 直播课程主子页
+
+- **cloudPage：** 手机云教育页
+
+- **subCloudPage：** 手机云教育主子页
+
+- **videoPage：** 视频页
+
+- **test：** 测试页
+
+![homePage](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094758homePage.png)
+![classesPage](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094812classesPage.png)
+![cloudPage](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094817cloudPage.png)
+![subCloudPage](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094832subCloudPage.png)
+![playPage](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094826playPage.png)
+![subPlayPage](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094839subPlayPage.png)
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 # wxTeachers
