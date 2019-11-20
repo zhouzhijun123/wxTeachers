@@ -42,35 +42,35 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 #### 项目目录
 |— **.awcache**<br />
-|— **build**&emsp;*一些用于项目编译打包的 node.js 脚本和 webpack 配置文件*  
-|— **config**&emsp;*包含了用于开发和生产环境下的不同配置*  
-|— **dist**&emsp;*由 src 编译后生成的可供微信小程序识别的目录*  
-|&emsp;&emsp;|— **wx**&emsp;*页面及组件之类的均在这里面*  
-|— **node_modules**
-|— **src**&emsp;*主要进行小程序功能编写的地方*
-|&emsp;&emsp;|— **component**&emsp;*组件存放位置*
-|&emsp;&emsp;|— **pages**&emsp;*小程序页面*
-|&emsp;&emsp;|— **utils**
-|&emsp;&emsp;|— **app.json**&emsp;*小程序的全局配置*
-|&emsp;&emsp;|— **app.ts**
-|&emsp;&emsp;|— **App.vue**
-|&emsp;&emsp;|— **main.ts**&emsp;*小程序入口文件*
-|&emsp;&emsp;|— **testData.json**&emsp;*测试数据*
-|&emsp;&emsp;|— **typings.d.ts**&emsp;*使 json 文件被 ts 识别*
-|&emsp;&emsp;|— **vue-shim.d.ts**&emsp;*使 vue 文件被 ts 识别*
-|— **static**&emsp;*用于存放各种小程序本地静态资源*
-|— **.babelrc**
-|— **.editorconfig**
-|— **.gitignore**
-|— **.postcssrc.js**
-|— **index.html**
-|— **package-lock.json**
-|— **package.json**&emsp;*项目的主配置文件，包含了项目的基本描述信息、项目所依赖的各种第三方库以及版本信息、以及可执行的脚本信息*
-|— **package.swan.json**
-|— **project.config.json**&emsp;*用于管理小程序项目的配置文件，记录了 appid、代码主目录、以及编译选项等等信息，在开发者工具中导入小程序项目时主要通过该文件读取和写入配置信息*
-|— **project.swan.json**
-|— **README.md**
-|— **tsconfig.json**
+|— **build**&emsp;*一些用于项目编译打包的 node.js 脚本和 webpack 配置文件*<br />
+|— **config**&emsp;*包含了用于开发和生产环境下的不同配置*<br />
+|— **dist**&emsp;*由 src 编译后生成的可供微信小程序识别的目录*<br />
+|&emsp;&emsp;|— **wx**&emsp;*页面及组件之类的均在这里面*<br />
+|— **node_modules**<br />
+|— **src**&emsp;*主要进行小程序功能编写的地方*<br />
+|&emsp;&emsp;|— **component**&emsp;*组件存放位置*<br />
+|&emsp;&emsp;|— **pages**&emsp;*小程序页面*<br />
+|&emsp;&emsp;|— **utils**<br />
+|&emsp;&emsp;|— **app.json**&emsp;*小程序的全局配置*<br />
+|&emsp;&emsp;|— **app.ts**<br />
+|&emsp;&emsp;|— **App.vue**<br />
+|&emsp;&emsp;|— **main.ts**&emsp;*小程序入口文件*<br />
+|&emsp;&emsp;|— **testData.json**&emsp;*测试数据*<br />
+|&emsp;&emsp;|— **typings.d.ts**&emsp;*使 json 文件被 ts 识别*<br />
+|&emsp;&emsp;|— **vue-shim.d.ts**&emsp;*使 vue 文件被 ts 识别*<br />
+|— **static**&emsp;*用于存放各种小程序本地静态资源*<br />
+|— **.babelrc**<br />
+|— **.editorconfig**<br />
+|— **.gitignore**<br />
+|— **.postcssrc.js**<br />
+|— **index.html**<br />
+|— **package-lock.json**<br />
+|— **package.json**&emsp;*项目的主配置文件，包含了项目的基本描述信息、项目所依赖的各种第三方库以及版本信息、以及可执行的脚本信息*<br />
+|— **package.swan.json**<br />
+|— **project.config.json**&emsp;*用于管理小程序项目的配置文件，记录了 appid、代码主目录、以及编译选项等等信息，在开发者工具中导入小程序项目时主要通过该文件读取和写入配置信息*<br />
+|— **project.swan.json**<br />
+|— **README.md**<br />
+|— **tsconfig.json**<br />
 
 #### 项目页面组成：
 
