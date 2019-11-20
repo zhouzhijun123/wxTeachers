@@ -36,6 +36,8 @@ npm run build --report
 
 ## 项目介绍：
 
+:smile:
+
 ### 项目框架构成： *typescript+mpvue+flyio*
 
 ### 项目页面组成：
