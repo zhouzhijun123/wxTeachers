@@ -39,6 +39,13 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 ### :smile: 项目介绍：
 
 #### 项目框架构成： *typescript@\^3.3.3333+mpvue@\^2.0.0+flyio@\^0.6.14*
+- **typescript:** *TypeScript 是 Javascript 的超集，实现以面向对象编程的方式使用 Javascrip，但最终还是编译为Javascript*
+- **mpvue:** *mpvue 是一套定位于开发小程序的前端开发框架并提供了完整的 Vue.js 开发体验，其核心目标是提高开发效率，增强开发体验*
+- **flyio:** *在小程序中使用请求与后台交互，只能使用原生的 wx.request，如果想要像 axio 一样使用三方包，只能使用 flyio*
+- **依赖包版本号:**
+    - *' **\~** ' 会匹配最近的小版本依赖包，比如 \~1.2.3 会匹配所有 1.2.x 版本，但是不包括 1.3.0*
+    - *' **\^** ' 会匹配最新的大版本依赖包，比如 \^1.2.3 会匹配所有 1.x.x 的包，包括 1.3.0，但是不包括 2.0.0*
+    - *' **\*** ' 会安装最新版本的依赖包*
 
 #### 项目目录
 
@@ -117,15 +124,28 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 
 ### :mega: 数据流动方式
-1. testData.json 提供测试数据
-2. 遵循原则：本页页面数据由本页提供，跳转页数据由上一页决定
-3. 跳转 URL 类似于 *跳转页面路径?id=所需数据所在的id值*<br />
+1. **testData.json** 提供测试数据
+2. **遵循原则:** 本页页面数据由本页提供，跳转页数据由上一页决定
+3. 跳转 **URL** 类似于 *跳转页面路径?id=所需数据所在的id值*<br />
     - 如：跳转到 playPage 页，且其数据 id 为 0 ==> {"destUrl": "../playPage/main?id=0"}
     - 数据存储方式：{ "playPage": ["0": {id 为 0 的数据}, "1": {...}, ...] }
-4. 组件不存在数据，由页面传递 Prop
+4. 组件不存在数据，页面通过 **Prop** 传递数据
+5. 评论区的内容要实时或刷新后**返回给 testData**，然后再重新渲染 userContend 组件
 
 ### :pencil: 项目零散知识点
-
-1. 
+1. **npm start** 会执行 scripts 里的 start 字段，若没有 start 字段则执行 node server.js
+2. 当新建 page 或 component 时需要重新运行一下 **npm run dev** 
+3. **'\*.vue'** 页面包含了 HTML、CSS、script 各个部分
+    - **HTML:** template 标签下需要一个统一的父级元素，且不能使用 v-for 之类的能产生多个元素的语法
+    - **CSS:** 提供了 scoped 来限制样式的范围
+    - **script:** 我们采用了 ts 语法，可通过 &lt;script lang="ts" src="脚本文件路径"&gt;&lt;/script&gt; 引入脚本
+4. **\@Prop:** 定义变量接收父组件传递来的参数，它的参数可以是类型变量或者对象或者数组
+    - 如： @Prop(Number) propA!: number;
+    - ! 和可选参数 ? 是相反的, 它告诉 TypeScript 我这里一定有值
+5. **\@Component:** 声明注册组件
+6. **this.\$root.\$mp.query:** 获取跳转时 URL 传入的参数对象
+7. **e.mp.detail:** 获取事件触发时传递给监听函数的值对象
+8. **e.target:** 指向的是触发事件监听的对象，即点击的是谁
+9. **e.currentTarget:** 指向的是添加监听事件的对象，即这个事件在哪个组件上
 
 # wxTeachers
