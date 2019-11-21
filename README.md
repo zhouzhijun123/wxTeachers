@@ -133,7 +133,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 5. 评论区的内容要实时或刷新后**返回给 testData**，然后再重新渲染 userContend 组件
 
 ### :pencil: 项目零散知识点
-##### Vue 相关
+#### Vue 相关
 1. **Vue 的作用**
     - 组件化，面向对象编程思想，能够重复利用，方便维护
     - 响应式原理，每一个组件（MODLE）都有一个watcher，watcher实时监听组件数据。当数据发生改变时，我们通过重新来渲染来实时显示UI界面
@@ -181,7 +181,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
     - 自动添加前缀，当使用需要添加浏览器引擎前缀的 CSS 属性时，Vue.js 会自动侦测并添加相应的前缀
     - 多重值 :style="{ display: ['-webkit-box', '-ms-flexbox', 'flex'] }"
 
-##### 小程序相关
+#### 小程序相关
 1. **全局配置(app.json)**
     - **pages:** string[] ==> 页面路径，必填
     - **window:** Object ==> 全局的默认窗口表现
@@ -212,7 +212,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
     - swiper-item 仅可放置在 swiper 里面，宽高自动设置为 100%
 3. 
 
-##### 开发相关
+#### 开发相关
 1. **npm start** 会执行 scripts 里的 start 字段，若没有 start 字段则执行 node server.js
 2. 当新建 page 或 component 时需要重新运行一下 **npm run dev** 
 3. **\@Prop:** 定义变量接收父组件传递来的参数，它的参数可以是类型变量或者对象或者数组
