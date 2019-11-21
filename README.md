@@ -142,19 +142,19 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
     - 实例从创建到被销毁所经历的这一段时间叫做生命周期？？
     - 钩子函数是好比找了个代理，**监视事件是否发生**，如果发生了这个代理就执行你的事件处理方法，而这个代理就是钩子函数
     - [Vue 的钩子函数](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191121055135lifecycle.png)：
-        + beforeCreadted：vue实例的挂载元素$el和数据对象data都为undefined，还未初始化
-        + created：vue实例的数据对象data有了，$el还没有
-        + beforeMount：vue实例的$el和data都初始化了，但还是虚拟的dom节点，具体的data.filter还未替换
-        + mounted：vue实例挂载完成，data.filter成功渲染
-        + beforeUpdate：data更新时触发
-        + updated：data更新时触发
-        + beforeDestroy：组件销毁时触发
+        + beforeCreadted：vue实例的挂载元素 $el 和数据对象 data 都为 undefined，还未初始化
+        + created：vue 实例的数据对象 data 有了，$el 还没有
+        + beforeMount：vue 实例的 $el 和 data 都初始化了，但还是虚拟的 DOM 节点，具体的 data.filter 还未替换
+        + mounted：vue 实例挂载完成，data.filter 成功渲染
+        + beforeUpdate：data 更新之前触发
+        + updated：data 更新时触发
+        + beforeDestroy：组件销毁之前触发
         + destroyed：组件销毁时触发，vue实例解除了事件监听以及和dom的绑定（无响应了），但DOM节点依旧存在
-2. **'\*.vue'** 页面包含了 HTML、CSS、script 各个部分
+3. **'\*.vue'** 页面包含了 HTML、CSS、script 各个部分
     - **HTML:** template 标签下需要一个统一的父级元素，且不能使用 v-for 之类的能产生多个元素的语法
     - **CSS:** 提供了 scoped 来限制样式的范围
     - **script:** 我们采用了 ts 语法，可通过 &lt;script lang="ts" src="脚本文件路径"&gt;&lt;/script&gt; 引入脚本
-3. **Vue 部分指令**
+4. **Vue 部分指令**
     - v-bind 主要用于属性绑定，简写为 :attr="attrValue"
     - v-on 指令监听 DOM 事件，并在触发时运行一些 JavaScript 代码，简写为 \@，如 \@eventName="handler"，有事件修饰符如下：
         + .stop 阻止事件继续传播 ==> &lt;div @click.stop="handler"&gt;阻止单击事件继续传播&lt;/div&gt;
@@ -169,25 +169,48 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
         + v-else-if
         + v-show 根据条件展示元素，带有 v-show 的元素始终会被渲染并保留在 DOM 中
         + 而 v-if 是“真正”的条件渲染，因为它会确保在切换过程中条件块内的事件监听器和子组件适当地被销毁和重建
-4. **class 绑定**
+5. **class 绑定**
     - 对象语法 :class="{ className: check }" className 这个类是否存在取决于 check 的 truthiness，可有多个类，以逗号分隔
     - 当 className 由 CSS 模块提供时，应写成 :class="{ 'className': check }"，不带引号的由脚本提供，styly 绑定也是一样
     - 数组语法 :class="['className1', 'className2'...]"，以应用一个 class 列表
     - 三元运算符绑定类 :class="[check? 'className1':'className2']"
     - 用在组件上，class 将被添加到该组件的根元素上面，已存在的不会被覆盖
-5. **样式绑定**
+6. **样式绑定**
     - 对象语法 :style="{color: color, fontSize: fontSize+'rpx'}"
     - 数组语法 :style="[style1, style2, ...]"
     - 自动添加前缀，当使用需要添加浏览器引擎前缀的 CSS 属性时，Vue.js 会自动侦测并添加相应的前缀
     - 多重值 :style="{ display: ['-webkit-box', '-ms-flexbox', 'flex'] }"
-5. 
 
 ##### 小程序相关
-1. **使用 swiper**
+1. **全局配置(app.json)**
+    - **pages:** string[] ==> 页面路径，必填
+    - **window:** Object ==> 全局的默认窗口表现
+        + navigationBarBackgroundColor: HexColor ==> 导航栏背景颜色，如 #000000
+        + navigationBarTextStyle: string ==> 导航栏标题颜色，仅支持 black / white
+        + navigationBarTitleText: string ==> 导航栏标题文字内容
+        + enablePullDownRefresh： boolean ==> 是否开启全局的下拉刷新
+        + backgroundTextStyle: string ==> 下拉 loading 的样式，仅支持 dark / light
+        + ......
+    - tabBar: Object ==> 底部 tab 栏的表现
+    - networkTimeout: Object ==> 网络超时时间
+    - debug: boolean ==> 是否开启 debug 模式，默认关闭
+    - functionalPages: boolean ==> 是否启用插件功能页，默认关闭
+    - subpackages: Object[] ==> 分包结构配置
+    - workers: string ==> Worker 代码放置的目录
+    - requiredBackgroundModes: string[] ==> 需要在后台使用的能力，如「音乐播放」
+    - plugins: Object ==> 使用到的插件
+    - preloadRule: Object ==> 分包预下载规则
+    - resizable: boolean ==> iPad 小程序是否支持屏幕旋转，默认关闭
+    - navigateToMiniProgramAppIdList: string[] ==> 需要跳转的小程序列表
+    - usingComponents: Object ==> 全局自定义组件配置
+    - permission: Object ==> 小程序接口权限相关设置
+    - sitemapLocation: String ==> 指明 sitemap.json 的位置
+    - style: String ==> 指定使用升级后的weui样式
+2. **使用 swiper**
     - 其中只可放置 swiper-item 组件，否则会导致未定义的行为
     - swiper 默认高度为 150px，需要动态计算高度或者结合 scroll-view，但 scroll-view 区域会导致无法下拉刷新
     - swiper-item 仅可放置在 swiper 里面，宽高自动设置为 100%
-2. 
+3. 
 
 ##### 开发相关
 1. **npm start** 会执行 scripts 里的 start 字段，若没有 start 字段则执行 node server.js
