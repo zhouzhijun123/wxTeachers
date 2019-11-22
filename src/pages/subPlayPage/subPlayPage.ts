@@ -53,6 +53,9 @@ class SubPlayPage extends Vue {
 
     beforeMount() {
         console.log("In subPlayPage");
+        wx.showLoading({
+            title: "玩命加载中..."
+        });
         this.id = this.$root.$mp.query.id;
         this.topImg = Data.subPlayPage[this.id].topImg;
         wx.setNavigationBarTitle({
@@ -60,6 +63,9 @@ class SubPlayPage extends Vue {
         });
         this.tabTitles = Data.subPlayPage.tabTitles;
         this.bottomText = Data.subPlayPage.bottomText;
+        setTimeout(function () {
+            wx.hideLoading();
+        }, 500);
     }
 }
 

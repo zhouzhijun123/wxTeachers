@@ -57,12 +57,18 @@ class HomePage extends Vue {
 
     beforeMount() {
         console.log("In homePage");
+        wx.showLoading({
+            title: "玩命加载中..."
+        });
         this.topScrollImgs = Data.homePage.topScrollImgs;
         this.tabTitles = Data.homePage.tabTitles;
         this.leftImgs = Data.homePage.leftImgs;
         this.rightImgs = Data.homePage.rightImgs;
         this.swiperHeight = this.itemHeight * this.leftImgs.length;
         this.bottomText = Data.homePage.bottomText;
+        setTimeout(function () {
+            wx.hideLoading();
+        }, 500);
     }
 }
 

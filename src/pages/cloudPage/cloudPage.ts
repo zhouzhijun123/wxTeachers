@@ -60,6 +60,9 @@ class CloudPage extends Vue {
 
     beforeMount() {
         console.log("In cloudPage");
+        wx.showLoading({
+            title: "玩命加载中..."
+        });
         this.id = this.$root.$mp.query.id;
         this.topImg = Data.cloudPage[this.id].topImg;
         this.tabTitles = Data.cloudPage.tabTitles;
@@ -67,6 +70,9 @@ class CloudPage extends Vue {
         this.imgList1 = Data.cloudPage[this.id].imgList1;
         this.swiperHeight = this.itemHeight[0] * Math.ceil(this.grideImgs.length / 3);
         this.bottomText = Data.cloudPage.bottomText;
+        setTimeout(function () {
+            wx.hideLoading();
+        }, 500);
     }
 }
 

@@ -1,14 +1,14 @@
 <template>
-  <div class="top-container">
-    <scroll-view scroll-y="true" class="scroll">
+  <div id="test">
+    <div class="scroll">
       <video :src="videoUrl" show-mute-btn webkit-playsinline controls class="vid"></video>
       <div class="title">{{title}}</div>
       <user-contend :users="users" />
-    </scroll-view>
+    </div>
     <div class="my-form">
       <div class="user">
-        <input placeholder="您的名字" type="text" name="name" @input="getName" class="in" />
-        <input placeholder="填写评论" type="text" name="contend" @input="getContend" class="in" />
+        <input placeholder="您的名字" @input="getName" class="in" />
+        <input placeholder="填写评论" @input="getContend" class="in" />
       </div>
       <input type="button" value="提交" class="sumit" @click="sumit" />
     </div>
@@ -21,10 +21,12 @@
 .scroll {
   height: 90vh;
   width: 750rpx;
+  overflow-y: scroll;
   background-color: rgb(240, 240, 240)
 }
 .vid {
-  width: 100%;
+  width: 750rpx;
+  height: 500rpx;
   display: block;
   margin: auto;
 }
@@ -49,12 +51,11 @@
   float: left;
   width: 550rpx;
   height: 10vh;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 .in {
-  height: 4vh;
-  padding: 10rpx;
-  font-size: 3vh;
+  height: 5vh;
+  font-size: 35rpx;
   border: 2rpx #cccccc solid;
 }
 .sumit {
@@ -67,6 +68,6 @@
   border-radius: 0;
   background-color: dodgerblue;
   color: white;
-  font-size: 4vh;
+  font-size: 40rpx;
 }
 </style>

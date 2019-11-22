@@ -20,12 +20,18 @@ class ClassesPage extends Vue {
 
     beforeMount() {
         console.log("In classesPage");
+        wx.showLoading({
+            title: "玩命加载中..."
+        });
         this.id = this.$root.$mp.query.id;
         this.title = Data.classesPage[this.id].title;
         this.classes = Data.classesPage[this.id].classes;
         this.state = Data.classesPage.state;
         this.binImg = Data.classesPage[this.id].binImg;
         this.bottomText = Data.classesPage.bottomText;
+        setTimeout(function () {
+            wx.hideLoading();
+        }, 500);
     }
 }
 

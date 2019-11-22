@@ -22,10 +22,16 @@ class SubCloudPage extends Vue {
 
     beforeMount() {
         console.log("In subCloudPage");
+        wx.showLoading({
+            title: "玩命加载中..."
+        });
         this.id = this.$root.$mp.query.id;
         this.topImg = Data.subCloudPage[this.id].topImg;
         this.imgs = Data.subCloudPage[this.id].classes;
         this.bottomText = Data.subCloudPage.bottomText;
+        setTimeout(function () {
+            wx.hideLoading();
+        }, 500);
     }
 }
 
