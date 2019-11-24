@@ -57,18 +57,35 @@ class HomePage extends Vue {
 
     beforeMount() {
         console.log("In homePage");
-        wx.showLoading({
-            title: "玩命加载中..."
-        });
+        if (wx) {
+            wx.showLoading({
+                title: "加载中..."
+            });
+            wx.request({
+                url: 'https://www.baidu.com',
+                method: "POST",
+                success: function (res) {
+                    // console.log(res.data);
+                    console.log("success!");
+                    wx.hideLoading();
+                },
+                fail: function () {
+                    setTimeout(function () {
+                        wx.showToast({
+                            title: "加载失败...",
+                            icon: "loading"
+                        })
+                    }, 2000);
+                    console.log("fail...");
+                },
+            });
+        }
         this.topScrollImgs = Data.homePage.topScrollImgs;
         this.tabTitles = Data.homePage.tabTitles;
         this.leftImgs = Data.homePage.leftImgs;
         this.rightImgs = Data.homePage.rightImgs;
         this.swiperHeight = this.itemHeight * this.leftImgs.length;
         this.bottomText = Data.homePage.bottomText;
-        setTimeout(function () {
-            wx.hideLoading();
-        }, 500);
     }
 }
 

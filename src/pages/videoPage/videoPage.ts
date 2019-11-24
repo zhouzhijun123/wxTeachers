@@ -1,4 +1,4 @@
-import { Vue, Component, Model } from 'vue-property-decorator'
+import { Vue, Component } from 'vue-property-decorator'
 import UserContend from '@/components/userContend/userContend.vue'
 
 import Data from '../../testData.json'
@@ -29,24 +29,52 @@ class Video extends Vue {
     }
 
     sumit(): void {
+        if (wx) {
+            wx.authorize({
+                scope: "scope.userInfo",
+                success: function () {
+                    console.log("success");
+                },
+                fail: function () {
+                    console.log("fail...");
+                }
+            });
+        }
         console.log("user: ", this.uname);
         console.log("contend: ", this.ucontend);
     }
 
     beforeMount() {
         console.log("In videoPage");
-        wx.showLoading({
-            title: "玩命加载中..."
-        });
+        if (wx) {
+            wx.showLoading({
+                title: "加载中..."
+            });
+            wx.request({
+                url: 'https://www.baidu.com',
+                method: "POST",
+                data: { mes: "Hello" },
+                success: function (res) {
+                    // console.log(res.data);
+                    console.log("success!");
+                    wx.hideLoading();
+                },
+                fail: function () {
+                    setTimeout(function () {
+                        wx.showToast({
+                            title: "加载失败...",
+                            icon: "loading"
+                        })
+                    }, 2000);
+                    console.log("fail...");
+                },
+            });
+        }
         this.id = this.$root.$mp.query.id;
         this.videoUrl = Data.videoPage[this.id].url;
         this.host = Data.videoPage[this.id].host;
         this.title = Data.videoPage[this.id].title;
         this.users = Data.videoPage[this.id].users;
-        setTimeout(function () {
-            wx.hideLoading();
-        }, 500);
-
     }
 
     // onLoad(options: any) {

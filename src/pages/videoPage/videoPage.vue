@@ -22,7 +22,7 @@
   height: 90vh;
   width: 750rpx;
   overflow-y: scroll;
-  background-color: rgb(240, 240, 240)
+  /* background-color: rgb(240, 240, 240) */
 }
 .vid {
   width: 750rpx;

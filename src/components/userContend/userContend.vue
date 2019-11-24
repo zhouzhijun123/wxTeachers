@@ -14,16 +14,25 @@
 
 <style scoped>
 .users {
-  width: 710rpx;
+  /* width: 710rpx;
   margin: 20rpx;
+  display: flex; */
   display: flex;
-  /* background-color: aquamarine; */
+  width: 720rpx;
+  margin: 0 auto;
+  margin-top: 16rpx;
+  min-height: 0;
+  overflow: hidden;
+  padding-top: 25rpx;
+  padding-bottom: 25rpx;
+  border-bottom: 1px dashed #f1f1f1;
 }
 .user-icon {
-  width: 80rpx;
-  height: 80rpx;
+  width: 90rpx;
+  height: 90rpx;
+  margin-right: 10rpx;
   float: left;
-  border-radius: 2rpx;
+  border-radius: 50%;
 }
 .contend-container {
   width: 600rpx;
@@ -32,18 +41,19 @@
   /* background-color: blue; */
 }
 .user-name {
-  width: 500rpx;
-  height: 40rpx;
-  font-size: 25rpx;
-  color: #666;
+  display: flex;
+  margin-right: 20rpx;
+  font-size: 26rpx;
+  font-weight: 600;
+  color: #3f9f94;
   /* background-color: aqua; */
 }
 .user-contend {
   display: flex;
   align-items: center;
-  width: 500rpx;
+  margin-top: 20rpx;
   font-size: 30rpx;
-  color: black;
+  color: #6f6f6f;
   /* background-color: blueviolet; */
 }
 </style>

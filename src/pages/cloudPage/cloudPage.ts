@@ -23,7 +23,7 @@ class CloudPage extends Vue {
 
     topImg: Array<object> = [{}];
     tabTitles: Array<string> = [""];
-    
+
     grideImgs: Array<object> = [{}];
     imgList1: Array<object> = [{}];
 
@@ -60,9 +60,29 @@ class CloudPage extends Vue {
 
     beforeMount() {
         console.log("In cloudPage");
-        wx.showLoading({
-            title: "玩命加载中..."
-        });
+        if (wx) {
+            wx.showLoading({
+                title: "加载中..."
+            });
+            wx.request({
+                url: 'https://www.baidu.com',
+                method: "POST",
+                success: function (res) {
+                    // console.log(res.data);
+                    console.log("success!");
+                    wx.hideLoading();
+                },
+                fail: function () {
+                    setTimeout(function () {
+                        wx.showToast({
+                            title: "加载失败...",
+                            icon: "loading"
+                        })
+                    }, 2000);
+                    console.log("fail...");
+                },
+            });
+        }
         this.id = this.$root.$mp.query.id;
         this.topImg = Data.cloudPage[this.id].topImg;
         this.tabTitles = Data.cloudPage.tabTitles;
@@ -70,9 +90,6 @@ class CloudPage extends Vue {
         this.imgList1 = Data.cloudPage[this.id].imgList1;
         this.swiperHeight = this.itemHeight[0] * Math.ceil(this.grideImgs.length / 3);
         this.bottomText = Data.cloudPage.bottomText;
-        setTimeout(function () {
-            wx.hideLoading();
-        }, 500);
     }
 }
 
