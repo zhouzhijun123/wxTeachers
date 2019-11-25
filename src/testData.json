@@ -668,20 +668,27 @@
                 {
                     "name": "Lemon",
                     "userIcon": "/static/images/blue.jpg",
-                    "contend": "Good"
+                    "contend": "Good",
+                    "date": "2019-11-10 12:09:52"
                 },
                 {
                     "name": "Stevens",
                     "userIcon": "/static/images/blue.jpg",
-                    "contend": "Just so so"
+                    "contend": "Just so so",
+                    "date": "2019-11-18 01:09:52"
                 },
                 {
                     "name": "Stevens",
                     "userIcon": "/static/images/blue.jpg",
-                    "contend": "Just so so"
+                    "contend": "Just so so",
+                    "date": "2019-11-20 21:09:52"
                 }
             ]
-        }
+        },
+        "title_text": "评论列表",
+        "tip": "You will allow to input at most 50 letters.",
+        "contend_text": "发表评论",
+        "submit_text": "发表"
     },
     "test": {
         "0": {

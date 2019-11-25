@@ -1,11 +1,13 @@
 import { Vue, Component } from 'vue-property-decorator'
 import UserContend from '@/components/userContend/userContend.vue'
+import BottomText from '@/components/bottomText/bottomText.vue'
 
 import Data from '../../testData.json'
 
 @Component({
     components: {
-        UserContend
+        UserContend,
+        BottomText
     }
 })
 class Video extends Vue {
@@ -20,6 +22,11 @@ class Video extends Vue {
     title: string = "";  // 标题
     host: string = "";   // 主讲人
     users: Array<object> = [{}];
+
+    title_text: string = "";
+    tip: string = "";
+    contend_text: string = "";
+    submit_text: string = "";
 
     getName(e: any): void {
         this.uname = e.mp.detail.value;
@@ -75,6 +82,11 @@ class Video extends Vue {
         this.host = Data.videoPage[this.id].host;
         this.title = Data.videoPage[this.id].title;
         this.users = Data.videoPage[this.id].users;
+
+        this.title_text = Data.videoPage.title_text;
+        this.tip = Data.videoPage.tip;
+        this.contend_text = Data.videoPage.contend_text;
+        this.submit_text = Data.videoPage.submit_text;
     }
 
     // onLoad(options: any) {
