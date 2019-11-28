@@ -96,7 +96,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 - [**subCloudPage：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120094832subCloudPage.png) *手机云教育主子页，在教育云里跳转后比较复杂的页面*
 
-- **videoPage：** *视频页，观看视频、显式评论、提供评论，需要绑定用户的微信评论*
+- [**videoPage：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191128054714videoPage.png) *视频页，观看视频、显式评论、提供评论，需要绑定用户的微信评论*
 
 - **test：** *测试页*
 
@@ -118,7 +118,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 - [**videoList**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120180914videoList.png) *课程列表*
 
-- [**userContend：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120180907userContend.png) *用户评价区*
+- [**userContend：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191128054414userContend.jpg) *用户评价区*
 
 - [**bottomText：**](https://images.cnblogs.com/cnblogs_com/lemonyam/1433359/o_191120180739bottomText.png) *页面底部文字*
 
