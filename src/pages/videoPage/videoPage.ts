@@ -51,8 +51,7 @@ class Video extends Vue {
         console.log("contend: ", this.ucontend);
     }
 
-    beforeMount() {
-        console.log("In videoPage");
+    getData(): void {
         if (wx) {
             wx.showLoading({
                 title: "加载中..."
@@ -78,7 +77,9 @@ class Video extends Vue {
             });
         }
         this.id = this.$root.$mp.query.id;
+        // 在这里发送请求获取对应 id 的数据，然后赋值初始化
         this.videoUrl = Data.videoPage[this.id].url;
+        console.log(this.videoUrl)
         this.host = Data.videoPage[this.id].host;
         this.title = Data.videoPage[this.id].title;
         this.users = Data.videoPage[this.id].users;
@@ -89,12 +90,10 @@ class Video extends Vue {
         this.submit_text = Data.videoPage.submit_text;
     }
 
-    // onLoad(options: any) {
-    //     console.log(options.videoUrl);
-    //     this.videoUrl = options.videoUrl;
-    //     this.host = options.host;
-    //     this.title = options.title;
-    // }
+    beforeMount() {
+        console.log("In videoPage");
+        this.getData();
+    }
 }
 
 export default Video
